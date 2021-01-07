@@ -42,7 +42,7 @@ subButton.addEventListener('click', () => {
     const subValue = subField.valueAsNumber;
     const subValue2 = subField2.valueAsNumber;
     // console.log(fieldValue, fieldValue2)
-    const sub = fieldValue - fieldValue2;
+    const sub = subValue - subValue2;
 
     // console.log(sum);
 
@@ -69,7 +69,7 @@ divButton.addEventListener('click', () => {
     const divValue = divField.valueAsNumber;
     const divValue2 = divField2.valueAsNumber;
     // console.log(fieldValue, fieldValue2)
-    const div = divValue + divValue2;
+    const div = divValue / divValue2;
 
     // console.log(sum);
 

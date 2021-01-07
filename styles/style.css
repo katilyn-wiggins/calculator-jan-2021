@@ -97,7 +97,7 @@ content {
 p {
     margin: var(--gutter);
 }
-  
+
 footer {
     position: fixed;
     width: 100%;
@@ -108,10 +108,10 @@ footer {
     background-color: var(--color3);
     box-shadow: var(--shadow);
 }
-  
-  @keyframes pulse {
+
+@keyframes pulse {
     20% {
-      transform: rotate3d(-10, -10, -10, 50deg) scale(1.2);
+    transform: rotate3d(-10, -10, -10, 50deg) scale(1.2);
     }
 
     40% {
@@ -120,23 +120,22 @@ footer {
 
     60% {
         transform: rotate3d(-10, 10, 10, 50deg) scale(1.2);
-      }
+    }
 
     80% {
         transform: rotate3d(10, 10, 10, 50deg) scale(1);
     }
 
-  }
+}
 
-  .add-section {
-      background-color: #D46A6A;
-      border: 1px dotted;
+.add-section {
+    background-color: #D46A6A;
+    border: 1px dotted;
+}
 
-  }
-
-  .sub-section {
-      background-color: #D46A6A;
-      border: 1px dotted;
+.sub-section {
+    background-color: #D46A6A;
+    border: 1px dotted;
 
   }
 
