@@ -1,11 +1,6 @@
 
 body {
 /* Main Primary color */
-.color-primary-0 { color: #AA3939 };
-.color-primary-1 { color: #FFAAAA };
-.color-primary-2 { color: #D46A6A };
-.color-primary-3 { color: #801515 };
-.color-primary-4 { color: #550000 };
     /* https://coolors.co/generate and click export -> scss to get the colors to copy and paste below*/
     /* --color1: hsla(349, 69%, 76%, 1);
     --color2: hsla(207, 67%, 44%, 1);
@@ -35,8 +30,8 @@ main {
     align-items: center;
     margin-bottom: calc(var(--footer-height));
     background-color: #801515;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 20px 20px 20px 20px;
+    font-family: Arial, Helvetica, sans-serif; 
 }
 
 section {
@@ -133,22 +128,12 @@ footer {
     border: 1px dotted;
 }
 
-.sub-section {
-    background-color: #D46A6A;
-    border: 1px dotted;
-
-  }
-
-  .mult-section {
-      background-color:#D46A6A;
-      border: 1px dotted;
-
+.input-1 {
+    padding-top: 10px;
 }
 
-.div-section {
-    background-color:#D46A6A;
-    border: 1px dotted;
-
+.input-2 {
+    padding-top: 10px;
 }
 
 h1 {
