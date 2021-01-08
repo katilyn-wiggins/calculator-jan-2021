@@ -68,4 +68,6 @@ export function myDivClickHandler() {
 
 }
 
-
+// handleChange:function(e){
+//     this.setState
+// }
